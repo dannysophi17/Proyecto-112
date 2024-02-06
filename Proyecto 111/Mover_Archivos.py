@@ -14,8 +14,8 @@ for file_name in list_of_files:
     if extension in ['.txt', '.doc', '.docx', '.pdf']:
        
         path1 = from_dir + '/' + file_name
-        path2 = to_dir + '/' + "Document_Archivos"
-        path3 = to_dir + '/' + "Document_Archivos" + '/' + file_name
+        path2 = to_dir + '/' + "Documentos_Archivos"
+        path3 = to_dir + '/' + "Documentos_Archivos" + '/' + file_name
 
      
         if os.path.exists(path2):
